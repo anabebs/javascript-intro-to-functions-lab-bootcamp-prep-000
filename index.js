@@ -21,11 +21,10 @@ function logWhisper(){
 function sayHiToGrandma(string) {
   if (whisper(string) === string){
     return "I can't hear you!"
-  }  else{
+  }  else if (shout(string)===string){
     return "YES INDEED!"
   } else  {
-    "I love you, too."
+    return "I love you, too."
   }
-  else{
-    return "YES INDEED!"
+  
 }
